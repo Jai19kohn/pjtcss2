@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="estilo.css">
+        <title>Divulga Sáfico</title>
+    </head>
+<body>
+    <header class="main-header">
+    <nav class="organizacaonav"> 
+        <a href="home.html" class="navega">Home |</a>
+        <a href="page2.html" class="navega">Autoras independentes |</a>
+        <a href="formulário.html" class="navega">Formulário</a> 
+    </nav>
+    <section class="title">
+        <h1>Divulga Sáfico</h1>
+        <p>Site com o intuito de divulgar autores com histórias sáficas ou LGBT.</p>
+        <br />
+        </section>
+        </header>
+
+<section>
+    <fieldset>
+        <legend>Identificação:</legend>
+        <label for="cNome">Nome:</label><br />
+        <input autocomplete="off" type="text" size="50" name="tNome" id="cNome" required="required" />
+        <br />
+        <label for="cSobre">Sobrenome:</label>
+        <input autocomplete="off" type="text" size="50" name="tSobre" id="cSobre" required="required">
+        <br />
+        <label for="idade">Idade:</label>
+        <input autocomplete="off" type="number" size="50" name="idade" id="idade" required="required">
+        <br />
+        <label for="cCid">Escolha sua cidade:</label>
+        <input autocomplete="on" list="cidade" name="tCid" id="cCid" placeholder="Sua cidade" />
+        <datalist id="cidade">
+            <option value="Curitiba">Curitiba</option>
+            <option value="Florianópolis">Florianópolis</option>
+            <option value="Rio de Janeiro">Rio de Janeiro</option>
+            <option value="Porto Alegre">Porto Alegre</option>
+            <option value="São Paulo">São Paulo</option>
+        </datalist>
+        <br /><br />
+    </fieldset>
+    <br /><br />
+
+    <fieldset>
+        <legend>Planos:</legend>
+        <div class="col">
+            <ul class="price-box">
+                <li class="header">Simples</li>
+                <li class="preço"><strong>R$9,90</strong> / ao Mês</li>
+                <li>Indicações em 1ª mão</li>
+                <li>Resenhas semanais</li>
+                <li>Acesso ao clube lliterário</li>
+                <li><a href="#" class="btn">Cadastre-se</a></li>
+            </ul>
+        </div>
+        <div class="col">
+            <ul class="box-pluss">
+                <li class="header-pluss">Padrão</li>
+                <li class="preço"><strong>R$19,90</strong> / ao Mês</li>
+                <li>Inclui tudo do plano simples;</li>
+                <li>Card do livro do mês</li>
+                <li>Brinde simples (card, poster ou marca página)</li>
+                <li>Ebook do mês</li>
+                <li><a href="#" class="btn">Cadastre-se</a></li>
+            </ul>
+        </div>
+        <div class="col">
+            <ul class="price-box">
+                <li class="header">Premium</li>
+                <li class="preço"><strong>R$49,90</strong> / ao Mês</li>
+                <li>Inclui tudo do plano Padrão</li>
+                <li>Livro físico do mês</li>
+                <li>Brindes especiais (ecobag, xícara ou vela)</li>
+                <li><a href="#" class="btn">Cadastre-se</a></li>
+            </ul>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Sua opinião:</legend>
+        <p>O quanto você gostou do site?</p>
+        0
+        <input type="range" id="valor_01" name="valor_01" />
+        100 
+    <br /><br />
+
+        <p>Sugestões, elogios e críticas:</p>
+        <textarea name="message" rows="10" cols="30" placeholder="Deixe aqui sua mensagem!"></textarea>
+    </fieldset>
+    <input type="submit" value="Enviar" />
+</section>
+</body>
+
+<footer>
+    <p>Jaíne Kohn, Programação Web, IOS, copyright&copy;</p>
+</footer>
+</html>
+

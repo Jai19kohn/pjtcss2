@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+body {
+    background-color: black;
+    color: #ffc5d4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;  
+}
+
+header {
+    background-color: #3B0B17;
+    color: #f0d3db;
+}
+
+.organizacaonav {
+    text-align: left;
+    font-size: 20px;
+    background-color: #19070B;
+    border: #000;
+}
+
+.navega {
+    color: #DF013A;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: pointer;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 182, 237);
+}
+
+.config {
+    display:contents;
+    margin: 10px;
+    text-align: justify;
+}
+img {
+    border: 2px solid #fff;
+    margin: 5px;
+}
+.imagens {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.rodape {
+    font-size: small;
+    text-align: left;
+}
+.col {
+    float: left;
+    width: 30%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.price-box {
+    background: #3B0B17;
+    color: #ffc5d4;
+    list-style-type: none;
+    border: 1px solid #fff;
+    margin: 2px;
+    padding: 2px;
+}
+
+.price-box .header {
+    background: #7a122e;
+    color: #fff;
+    font-size: 25px;
+}
+
+.box-pluss {
+    background: #7a122e;
+    color: #ffc5d4;
+    list-style-type: none;
+    border: 1px solid #fff;
+    margin: 2px;
+    padding: 2px;
+}
+.box-pluss .header-pluss {
+    background-color: #3B0B17;
+    color: #fff;
+    font-size: 25px;
+}
